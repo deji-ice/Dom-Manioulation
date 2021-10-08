@@ -1,0 +1,122 @@
+.cart{
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: rgb(236, 236, 236);
+    box-shadow: 1px 1.5px 4px rgb(109, 109, 109);
+    border: none;
+    margin: 3px;
+}
+button{
+    text-decoration: none;
+    background-color: rgb(228, 228, 228);
+    border: none;
+}
+body{
+    margin-right: 380px; 
+    margin-left: 380px;
+    font-family:roboto;
+    color: rgb(77, 77, 77);
+    font-stretch: expanded semi-expanded;
+      font-size: 12px;
+}
+#totalEl{
+    background-color: #5ac590;
+    padding: 4px;
+    color: white;
+    border-radius: 5px;
+    justify-self: flex-start;
+}
+.bodycart{
+    border: 3px solid rgb(153, 153, 153);
+    width: 500px;
+    grid-auto-columns: minmax(500px, auto);
+    background-color: #ffffff;
+    border-radius: 10px;
+    }
+
+.bodycart > div{
+   padding: 10px;
+}
+
+h4{
+   font-weight: bold;
+   font-size: 14px;
+}
+.img1{
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    border: solid rgb(226, 223, 223) 1px;
+    box-shadow: 1px 1.5px 4px rgb(109, 109, 109);
+    border: none;
+    margin: 5px;
+
+}
+.Fbox2{
+    justify-self: end;
+    text-align: right;
+}
+
+.img2{
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    border: solid rgb(226, 223, 223) 1px;
+    box-shadow: 1px 1.5px 4px rgb(109, 109, 109);
+    border: none;
+    margin: 5px;
+}
+.Sbox2{
+    justify-self: end;
+    text-align: right;
+}
+
+.img3{
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    border: solid rgb(226, 223, 223) 1px;
+    box-shadow: 1px 1.5px 4px rgb(109, 109, 109);
+    border: none;
+    margin: 5px;
+}
+.Tbox2{
+    justify-self: end;
+    text-align: right;
+}
+
+.img4{
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    border: solid rgb(226, 223, 223) 1px;
+    box-shadow: 1px 1.5px 4px rgb(109, 109, 109);
+    border: none;
+    margin: 5px;
+}
+.FFbox2{
+    justify-self: end;
+    text-align: right;
+}
+
+#decre:hover {
+
+        cursor: pointer;
+    }
+#inc:hover {
+
+        cursor: pointer;
+    }
+
+.fa-heart:hover{
+    cursor: pointer;
+    color: rgb(231, 17, 63);
+    }
+.fa-trash-alt{
+    cursor: pointer;
+}
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-weight: 500;
+    }
